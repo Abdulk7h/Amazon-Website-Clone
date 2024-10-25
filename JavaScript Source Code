@@ -1,0 +1,16 @@
+function lists(){
+
+let divLists = document.querySelector(".div-lists");
+let SwipeIcon = document.querySelector(".ri-menu-line");
+let CrossIcon = document.querySelector(".div-lists-nav-bar-icon");
+let flag = 0;
+
+SwipeIcon.addEventListener("click",function(){
+    divLists.style.left = 0;
+});
+CrossIcon.addEventListener("click",function(){
+    divLists.style.left = "-24%";
+});
+
+};
+lists();
